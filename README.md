@@ -5,23 +5,23 @@ Skapa en e-handel för en sportbutik. Du väljer själv vilka produkter som ska 
 
 ## Kravspecifikation:
 
-### Barntema
+### Barntema - PHP-kod
 Siten skall innehålla ett egenskapat barntema som:  
 * Justerar WooCommerce via krok (hook) 
 * Lägger till något med add_action
 * Tar bort något med remove_action  
 * Ersätter en WooCommerce-mallfil igenom template override.
  
-### Produkttyper
+### Produkttyper - Wordpress/Woocommerce
 Skapa minst fem olika produkter för dessa produktyper (minst en produkt av varje produkttyp). OBS, minst två produktkategorier.
 * Variabla produkter  
 * Nedladdningsbara produkter  
 * Enkla produkter
  
-### Egenutvecklat tillägg 
+### Egenutvecklat tillägg - PHP-kod
 Utveckla ett eget plugin med valfri funktion.
  
-## Extern applikation - Eget Repo:  
+## Extern applikation - PHP-kod         Eget Repo:  
 Skapa en fristående, extern webbapplikation med data från WordPress & WooCommerce REST API.
 Denna applikation simulerar ett affärssystem (eller en mobil app).
 I den första synkroniseringen ("synken") läses data in från eHandelsplattformen till affärssystemet med hjälp av WooCommerce REST API (/wp-json/wc/v3/.....). Ingen databas behövs utan data lagras i lokalt minne (local storage). Ett tips är att använda sig av Requests som är ett HTTP bibliotek för att skicka requests.
