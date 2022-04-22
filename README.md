@@ -21,7 +21,7 @@ Skapa minst fem olika produkter för dessa produktyper (minst en produkt av varj
 ### Egenutvecklat tillägg - PHP-kod
 Utveckla ett eget plugin med valfri funktion.
  
-## Extern applikation - PHP-kod         Eget Repo:  
+## Extern applikation - PHP-kod         Eget Repo:  https://github.com/totaldekadens/Mini-ERP
 Skapa en fristående, extern webbapplikation med data från WordPress & WooCommerce REST API.
 Denna applikation simulerar ett affärssystem (eller en mobil app).
 I den första synkroniseringen ("synken") läses data in från eHandelsplattformen till affärssystemet med hjälp av WooCommerce REST API (/wp-json/wc/v3/.....). Ingen databas behövs utan data lagras i lokalt minne (local storage). Ett tips är att använda sig av Requests som är ett HTTP bibliotek för att skicka requests.
@@ -31,7 +31,7 @@ Datan visas upp på olika sidor som beskrivs nedan:
 Varje produkt behöver en produktbild, produktnamn, pris, produkt URL och en kortare beskrivning.
 * 2 kortare blogginlägg (posts).
 * 2 ordrar från två olika kunder. Varje order behöver:
-        - order id
-        - status
-        - totalsumma
-        - datum
+  - order id
+  - status
+  - totalsumma
+  - datum
