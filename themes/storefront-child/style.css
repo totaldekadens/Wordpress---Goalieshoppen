@@ -1,0 +1,89 @@
+/* 
+
+Theme name: Storefront Child
+Template: storefront
+Author: Angelica Moberg Skoglund
+
+*/
+
+#masthead {
+    margin-bottom: 0px;
+}
+
+.widget_media_image {
+    display: flex;
+    width: 100%;
+
+}
+
+figure {
+    display: flex;
+    width: 100%;
+}
+
+.widget_media_image figure img {
+    width: 100%;
+}
+
+.hentry .entry-content a {
+    margin-bottom: 20px !important;
+}
+
+#colophon {
+    background-color: rgba(108, 126, 108, 0.742);
+}
+
+#footCont {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#footCont li {
+    list-style: none;
+}
+
+input[type=search], textarea, .input-text {
+    
+    background-color: rgba(144, 176, 144, 0.378);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+input[type=text],  input[type=number] , input[type=email], input[type=tel], input[type=url], input[type=password] {
+    background-color: rgba(144, 176, 144, 0.378);
+    border-radius: 5px;
+}
+
+button, input[type=button], input[type=reset], input[type=submit], .button, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .added_to_cart {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+table:not( .has-background ) th {
+    background-color: rgba(144, 176, 144, 0.378);
+}
+
+table:not( .has-background ) tbody td {
+    background-color: rgba(144, 176, 144, 0.201);
+   
+}
+
+#order_review .shop_table {
+    border-radius: 5px;
+}
+
+.footCont {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.footCont li {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
